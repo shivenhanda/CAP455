@@ -1,8 +1,7 @@
 #include<iostream>
 using namespace std;
 class Student{
-//	const int id;
-	int &marks;//reference 
+	int &marks;
 	public:
 		Student(int x):marks(x){
 		}
